@@ -1,3 +1,42 @@
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightslategray;
 }
+
+header {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  color: lightslategray;
+}
+
+.button {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#reverseButton {
+  border-radius: 5px;
+  
+}
+
+.userInput1 {
+  width: 50%;
+  float: left;
+}
+
+.userInput2 {
+  width: 50%;
+  float: right;
+}
+
+#description {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
